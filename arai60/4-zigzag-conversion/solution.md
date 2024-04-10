@@ -10,3 +10,4 @@
 ### 反省点
 
 - `numRows`が1の場合はずっと同じ行に書き続けることになるのでdirectionが0でないといけないことになる。そこで `direction = 1 if numRows != 1 else 0` としているが、 `numRows == 1`のときに `direction == 0` でないといけないというのはなぜかすぐには伝わりにくいかもしれない
+- 最後の `"".join(["".join(row) for row in mat])` は若干可読性に難あり？
