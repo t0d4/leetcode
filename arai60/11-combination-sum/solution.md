@@ -17,6 +17,10 @@
 ## Upsolve
 
 - [解説動画](https://leetcode.com/problems/combination-sum)を視聴
-- 新しい数を答えのリストに追加するときに、毎回「`candidate[i]`をもう一度使うことを許す場合」と「`candidate[i]`をもう使わない場合」の2通りを考えているということのよう
+- `candidate[i]`をcombinationに追加するときに、毎回その下に「`candidate[i]`をもう一度以上使うことを許す場合」と「`candidate[i]`をもう二度と使わない場合」の2通りの部分木が出来るように考えることで葉の部分に重複が生まれなくなるらしい
+  - `candidate[i]`をもう一度以上使うことを許す場合
+    - https://github.com/t0d4/leetcode/blob/466996d8a0a4f67f56b0bca3ed5d36244e420943/arai60/11-combination-sum/solve_neetcode.py#L12-L14
+  - `candidate[i]`をもう二度と使わない場合
+    - https://github.com/t0d4/leetcode/blob/466996d8a0a4f67f56b0bca3ed5d36244e420943/arai60/11-combination-sum/solve_neetcode.py#L15-L17
 
 **復習必須**
