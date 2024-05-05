@@ -18,3 +18,5 @@
 
 - [解説動画](https://leetcode.com/problems/combination-sum)を視聴
 - 新しい数を答えのリストに追加するときに、毎回「`candidate[i]`をもう一度使うことを許す場合」と「`candidate[i]`をもう使わない場合」の2通りを考えているということのよう
+
+**復習必須**
