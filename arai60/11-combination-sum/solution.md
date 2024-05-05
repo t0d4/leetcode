@@ -13,3 +13,8 @@
 - Submissionは通ったが、さすがに探索範囲が広すぎたのかBeats 5% of solutions
 - 組み合わせとして見ると重複しているものを大量に数えてしまっているのがもったいない
 - tupleはイミュータブルなので `comb + (c,)` のところで再構築が走っているせいで重いのかもしれない
+
+## Upsolve
+
+- [解説動画](https://leetcode.com/problems/combination-sum)を視聴
+- 新しい数を答えのリストに追加するときに、毎回「`candidate[i]`をもう一度使うことを許す場合」と「`candidate[i]`をもう使わない場合」の2通りを考えているということのよう
