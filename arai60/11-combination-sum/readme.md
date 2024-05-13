@@ -24,3 +24,12 @@
     - https://github.com/t0d4/leetcode/blob/2116a50e305b0f4092e160c4b970a21e964e25ca/arai60/11-combination-sum/solve_neetcode.py#L15-L17
 
 **復習必須**
+
+## Upsolve (FAILED, 20240513upsolve1.py)
+
+### 反省点
+
+- DFSを使うのは覚えていたがそもそもどういう方針だったか完全に忘れていた
+- 同じリストを使いまわして効率化していることを忘れていた
+- 忘れていて答えを見ないと思い出せなかったところには `REF` と書いてある
+- もう一度使うことを許す場合と二度と使わない場合について、いずれにしてもこのとき`candidates[start_idx]`を足しているということを忘れていたっぽい
